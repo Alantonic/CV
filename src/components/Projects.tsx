@@ -12,7 +12,7 @@ const Projects = () => {
               alt={project.title}
               className="w-full h-48 object-cover"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = 'https://via.placeholder.com/800x600/2563EB/FFFFFF?text=Proyecto';
+                (e.target as HTMLImageElement).src = '';
               }}
             />
             <div className="p-4 flex flex-col flex-1">
