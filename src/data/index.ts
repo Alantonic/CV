@@ -29,21 +29,21 @@ export const projects: Project[] = [
     id: 1,
     title: 'Gestor de Videojuegos',
     description: 'Aplicación web CRUD para catalogar y gestionar tu colección de videojuegos con React y Vite.',
-    image: 'public/assets/Captura de pantalla 2026-06-23 194726.png',
+    image: '/assets/Captura de pantalla 2026-06-23 194726.png',
     tech: ['React', 'TypeScript', 'Tailwind'],
   },
   {
     id: 2,
     title: 'Sistema IoT con ESP-32',
     description: 'Monitoreo de sensores y control remoto de dispositivos usando C++ y comunicación MQTT.',
-    image: 'public/assets/ESP32-38.png',
+    image: '/assets/ESP32-38.png',
     tech: ['C++', 'ESP-32', 'MQTT', 'MongoDB'],
   },
   {
     id: 3,
     title: 'Juego 3D en Unity',
     description: 'Prototipo de juego de plataformas 3D con mecánicas de salto, colección de objetos y enemigos.',
-    image: 'public/assets/Captura de pantalla 2026-06-12 114036.png',
+    image: '/assets/Captura de pantalla 2026-06-12 114036.png',
     tech: ['C#', 'Unity', 'Blender']
   }
 ];
