@@ -19,10 +19,10 @@ const Footer = () => {
         </a>
       </div>
       <p className="text-gray-400 text-sm">
-        © 2024 {personalInfo.name} - React + TypeScript + Tailwind
+        © 2026 {personalInfo.name} - React + TypeScript + Tailwind
       </p>
       <p className="text-gray-500 text-xs mt-2">
-        📍 Disponible para oportunidades
+        Si puedes imaginarlo puedes crearlo
       </p>
     </footer>
   );

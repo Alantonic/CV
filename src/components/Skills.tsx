@@ -1,5 +1,5 @@
 import { 
-  SiSharp,        // C# (CORREGIDO)
+  SiSharp,        
   SiPython, 
   SiReact, 
   SiUnity, 
@@ -12,7 +12,7 @@ const Skills = () => {
     { name: 'Python', icon: SiPython, color: 'text-blue-400' },
     { name: 'React', icon: SiReact, color: 'text-cyan-400' },
     { name: 'Unity 3D', icon: SiUnity, color: 'text-gray-300' },
-    { name: 'ESP-32', icon: SiArduino, color: 'text-green-400' },
+    { name: 'Arduino', icon: SiArduino, color: 'text-blue-400' },
   ];
 
   return (

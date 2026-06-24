@@ -1,4 +1,3 @@
-import { FaGithub } from 'react-icons/fa';
 import { projects } from '../data';
 
 const Projects = () => {
@@ -26,9 +25,6 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              <a href={project.github} target="_blank" className="inline-flex items-center gap-2 mt-4 text-blue-400 hover:text-blue-300 transition">
-                <FaGithub /> Ver en GitHub →
-              </a>
             </div>
           </div>
         ))}
