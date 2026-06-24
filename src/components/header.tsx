@@ -8,11 +8,11 @@ const Header = () => {
         {/* Foto */}
         <div className="mb-6">
           <img 
-            src="/assets/foto-perfil.jpg" 
+            src="./assets/foto-perfil.jpg" 
             alt={personalInfo.name}
             className="w-60 h-60 rounded-full border-4 border-blue-400 shadow-xl object-cover mx-auto hover:scale-110 transition-transform duration-300"
             onError={(e) => {
-              (e.target as HTMLImageElement).src = 'public/assets/Foto1.png';
+              (e.target as HTMLImageElement).src = 'assets/Foto1.png';
             }}
           />
         </div>
